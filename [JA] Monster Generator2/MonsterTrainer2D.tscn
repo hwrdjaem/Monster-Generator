@@ -1,0 +1,76 @@
+[gd_scene format=2]
+
+[node name="MonsterTrainer2D" type="Node2D"]
+editor/display_folded = true
+
+[node name="VITLabel2" type="Label" parent="."]
+margin_left = 221.584
+margin_top = 64.1964
+margin_right = 293.584
+margin_bottom = 78.1964
+text = "VIT"
+
+[node name="MNALabel2" type="Label" parent="."]
+margin_left = 223.92
+margin_top = 86.0362
+margin_right = 299.92
+margin_bottom = 100.036
+text = "MNA"
+
+[node name="STRLabel2" type="Label" parent="."]
+margin_left = 224.212
+margin_top = 106.124
+margin_right = 300.212
+margin_bottom = 120.124
+text = "STR"
+
+[node name="DEFLabel2" type="Label" parent="."]
+margin_left = 223.92
+margin_top = 127.256
+margin_right = 292.92
+margin_bottom = 141.256
+text = "DEF"
+
+[node name="SPDLabel2" type="Label" parent="."]
+margin_left = 221.0
+margin_top = 148.22
+margin_right = 289.0
+margin_bottom = 162.22
+text = "SPD"
+
+[node name="VITButton" type="Button" parent="."]
+margin_left = 277.0
+margin_top = 61.0
+margin_right = 416.0
+margin_bottom = 81.0
+text = "
+Flut von Schlägen"
+
+[node name="MNAButton" type="Button" parent="."]
+margin_left = 277.0
+margin_top = 82.0
+margin_right = 416.0
+margin_bottom = 102.0
+text = "Meditieren"
+
+[node name="STRButton" type="Button" parent="."]
+margin_left = 277.204
+margin_top = 102.94
+margin_right = 416.204
+margin_bottom = 122.94
+text = "Heben"
+
+[node name="DEFButton" type="Button" parent="."]
+margin_left = 276.993
+margin_top = 123.518
+margin_right = 415.993
+margin_bottom = 143.518
+text = "Bewachen"
+
+[node name="SPDButton" type="Button" parent="."]
+margin_left = 277.0
+margin_top = 144.876
+margin_right = 416.0
+margin_bottom = 164.876
+text = "Laufen"
+
